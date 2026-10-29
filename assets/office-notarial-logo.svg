@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="Sceau Office Notarial Touré &amp; N'Diaye">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&amp;display=swap');
+    .sans { font-family: Inter, 'Segoe UI', Arial, sans-serif; font-weight: 600; }
+  </style>
+  <defs>
+    <symbol id="mono" viewBox="0 0 200 200">
+      <path fill-rule="evenodd" d="M18 100a82 82 0 1 0 164 0a82 82 0 1 0-164 0ZM36 100a64 76 0 1 0 128 0a64 76 0 1 0-128 0Z"/>
+      <path d="M60 46h80v4H60z M60 46h4v16l-4-4z M136 46h4v12l-4 4z M93 48h14v103H93z M82 150h36v2.5H82z M93 143q0 7-8 7h8z M107 143q0 7 8 7h-8z"/>
+      <path d="M49 90h13v1.5H49z M54 90h3v40h-3z M49 128.5h11v1.5H49z M54 90h8l22 40.5h-7z M81 90h3v40.5h-3z M77 90h11v1.5H77z"/>
+      <path d="M113 90h13v1.5h-13z M118 90h3v40h-3z M113 128.5h11v1.5h-11z M118 90h8l22 40.5h-7z M145 90h3v40.5h-3z M141 90h11v1.5h-11z"/>
+    </symbol>
+    <path id="arcTop" d="M34 160A126 126 0 0 1 286 160"/>
+    <path id="arcBottom" d="M25 160A135 135 0 0 0 295 160"/>
+  </defs>
+  <circle cx="160" cy="160" r="156" fill="#032726"/>
+  <g fill="none" stroke="#c9a24b">
+    <circle cx="160" cy="160" r="149" stroke-width="2"/>
+    <circle cx="160" cy="160" r="144" stroke-width="0.7"/>
+    <circle cx="160" cy="160" r="110" stroke-width="0.7"/>
+    <circle cx="160" cy="160" r="105" stroke-width="2"/>
+  </g>
+  <text class="sans" font-size="12.5" letter-spacing="3" fill="#e3c98a"><textPath href="#arcTop" startOffset="50%" text-anchor="middle">OFFICE NOTARIAL · TOURÉ &amp; N'DIAYE</textPath></text>
+  <text class="sans" font-size="13" letter-spacing="7" fill="#e3c98a"><textPath href="#arcBottom" startOffset="50%" text-anchor="middle">BAMAKO · MALI</textPath></text>
+  <g fill="#c9a24b">
+    <path d="M30 160l5-5 5 5-5 5z"/>
+    <path d="M280 160l5-5 5 5-5 5z"/>
+  </g>
+  <use href="#mono" x="68" y="68" width="184" height="184" fill="#f6f1e6"/>
+</svg>

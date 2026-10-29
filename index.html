@@ -167,8 +167,10 @@ header.scrolled{background:rgba(14,14,17,.82);backdrop-filter:blur(14px);border-
 .proj-link svg{width:16px;height:16px;transition:.25s var(--ease)}
 .proj-link:hover{color:#fff}
 .proj-link:hover svg{transform:translate(3px,-3px)}
-.proj-cover.c3{background:linear-gradient(135deg,#1a1230,#3a1c4a)}
-.proj-cover.c4{background:linear-gradient(135deg,#07222b,#0d3a3a)}
+.proj-cover.c3{background:linear-gradient(135deg,#032726,#075e59)}
+.proj-cover.c4{background:linear-gradient(135deg,#0d1b2a,#1f4570)}
+.proj-cover .proj-logo.wide{width:250px;height:112px;padding:14px 18px}
+.proj-cover .proj-logo.seal{width:136px;height:136px;padding:0;background:none;border-radius:50%}
 .proj-cover.c5{background:linear-gradient(135deg,#071a2b,#13324a)}
 
 /* ---------- Timeline ---------- */
@@ -258,6 +260,7 @@ footer p{color:var(--muted);font-size:13.5px}
   .float-badge{display:none}
 }
 </style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,700;1,800&amp;text=LEBRAHUTO-%C3%89C%C2%B7MK%20&amp;display=swap">
 </head>
 <body>
 <script>document.documentElement.classList.add('js');</script>
@@ -417,7 +420,7 @@ footer p{color:var(--muted);font-size:13.5px}
       </div>
       <div class="proj reveal">
         <div class="proj-cover c3"><div class="pattern-mini" id="pm3"></div><span class="proj-badge">Site en ligne</span>
-          <div class="big-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/><path d="M9 10h.01M15 10h.01"/></svg></div>
+          <img src="assets/office-notarial-logo.svg" alt="Logo Office Notarial Touré &amp; N'Diaye" class="proj-logo seal" loading="lazy">
         </div>
         <div class="proj-body">
           <div class="proj-date">Site vitrine · En production</div>
@@ -430,7 +433,13 @@ footer p{color:var(--muted);font-size:13.5px}
       </div>
       <div class="proj reveal d2">
         <div class="proj-cover c4"><div class="pattern-mini" id="pm4"></div><span class="proj-badge">Site en ligne</span>
-          <div class="big-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3v-5l2-5h11l3 5h1a1 1 0 0 1 1 1v4h-2"/><circle cx="7.5" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/><path d="M9.3 17h6.4"/></svg></div>
+          <svg class="proj-logo wide" viewBox="0 0 320 132" role="img" aria-label="Logo Auto-École Le Berrah">
+            <defs><linearGradient id="berrahRoad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d98a00"/><stop offset=".5" stop-color="#ffcf3a"/><stop offset="1" stop-color="#f5b301"/></linearGradient></defs>
+            <text x="4" y="58" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-size="52" font-weight="800" font-style="italic" letter-spacing="-1.5" fill="#0d1b2a">LE BERRAH</text>
+            <path d="M0 108 C 110 107, 220 96, 318 64 L316 63.8 C 218 89, 108 93, 0 91 Z" fill="url(#berrahRoad)"/>
+            <path d="M0 99.5 C 110 99, 219 92.5, 317 63.9" fill="none" stroke="#0d1b2a" stroke-width="1.5" stroke-dasharray="10 7"/>
+            <text x="5" y="127" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-size="11.5" font-weight="700" letter-spacing="6.5" fill="#e09600">AUTO-ÉCOLE · BAMAKO</text>
+          </svg>
         </div>
         <div class="proj-body">
           <div class="proj-date">Site vitrine · En production</div>
